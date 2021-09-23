@@ -1,0 +1,53 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×ë¶Ûùÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(›ú±âûÿÿÿÿ
+K
+java:S2696#"6Make the enclosing method "static" or remove this set.(óİ»F
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(µÄa
+h
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙêÇ
+S	java:S106."9Replace this use of System.out or System.err by a logger.( ”ˆ—øÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Æ‰«Ãıÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(•ÉÁÓúÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(®³ªÉ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(º¢Šàıÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ºÎÉ°
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(›ú±âûÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(×Ï‡Óüÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(×¯«ú
+M	java:S106R"9Replace this use of System.out or System.err by a logger.(µÄa
+M	java:S106Z"9Replace this use of System.out or System.err by a logger.(ÿ£ü
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(ê¬ßïùÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(›ú±âûÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(Î‘Í„ûÿÿÿÿ
+M	java:S106k"9Replace this use of System.out or System.err by a logger.(µÄa
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(›Ñİüÿÿÿÿ
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(ñ¬¢‚
+R
+java:S2696ƒ"6Make the enclosing method "static" or remove this set.(¿€ııÿÿÿÿ
+O	java:S106…"9Replace this use of System.out or System.err by a logger.(æ†âñ
+h
+java:S3776’"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ááµ3
+`
+java:S1854®"IRemove this useless assignment to local variable "isOrderPrintFirstTime".(‘ÿ´œ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(³Ÿ›ÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(°¤
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¦ŒÓÒ
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(ÄùÿÑ
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(Í˜šı
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(·œçŒ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(ŞÀ”ãşÿÿÿÿ
+O	java:S106·"9Replace this use of System.out or System.err by a logger.(³Ÿ›ÿ
+T	java:S106»"9Replace this use of System.out or System.err by a logger.(¹¦ğÉúÿÿÿÿ
+T	java:S106¼"9Replace this use of System.out or System.err by a logger.(Ê¢Ä´ùÿÿÿÿ
+O	java:S106¾"9Replace this use of System.out or System.err by a logger.(Î³Úé
+V	java:S106À"9Replace this use of System.out or System.err by a logger.(Í˜šı8æÔÅÀ/
+V	java:S106Ã"9Replace this use of System.out or System.err by a logger.(·œçŒ8ĞÎÅÀ/
+V	java:S106Æ"9Replace this use of System.out or System.err by a logger.(½•º«8»ÚßÆÀ/
+{
+java:S1192!"`Define a constant instead of duplicating this literal "- LÃ¼tfen boÅŸ deÄŸer girmeyin!" 3 times.(›ú±âûÿÿÿÿ
+
+java:S1192'"{Define a constant instead of duplicating this literal "- Size tanÄ±nan seÃ§eneklerden baÅŸka iÅŸlem yapmayÄ±nÄ±z!" 3 times.(µÄa
+l	java:S127l"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+S
+java:S2589"7Remove this expression which always evaluates to "true"(ÆÄ•©üÿÿÿÿ

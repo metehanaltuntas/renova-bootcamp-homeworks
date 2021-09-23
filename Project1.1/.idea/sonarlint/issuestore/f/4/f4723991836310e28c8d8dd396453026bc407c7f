@@ -1,0 +1,8 @@
+
+M	java:S106,"9Replace this use of System.out or System.err by a logger.(¹¹ç`
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(Õ¿˜
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ôÛÅÇûÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(·Ÿ²à
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(ÜæÀÔ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(¥£‰ñşÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(Áäõìûÿÿÿÿ
