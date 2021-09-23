@@ -31,7 +31,5 @@ k
 ;src/com/renova/project/service/ProductOperationService.java,f\a\fac86c1a5811a83b2518c9cc108c8cf5d8216bb2
 i
 9src/com/renova/project/service/OrderOperationService.java,a\e\ae7cae69da42ce4a09a097f5e66ee42e9bc4395c
-=
-src/README.md,8\3\83aa3445a7f65c488e8ccd0a5ad0e80c174dc329
 P
  src/com/renova/project/Test.java,f\4\f4723991836310e28c8d8dd396453026bc407c7f
