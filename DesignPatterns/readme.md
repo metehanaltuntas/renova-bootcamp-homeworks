@@ -1,0 +1,1 @@
+Object pool, memento ve flyweight design pattern' lerinin örneklemeleri gerçekleştirilmiştir.
