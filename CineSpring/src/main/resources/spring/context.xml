@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Cinema bean' leri -->
+    <bean id="cinema" class="org.cinespring.example.model.entity.Cinema" scope="prototype">
+        <property name="id" value="1"/>
+        <property name="name" value="Cinemaximum"/>
+        <property name="address" value="Samsun"/>
+    </bean>
+
+    <bean id="cinema2" class="org.cinespring.example.model.entity.Cinema" scope="prototype">
+        <property name="id" value="2"/>
+        <property name="name" value="Cinema Guru"/>
+        <property name="address" value="İstanbul"/>
+    </bean>
+
+    <!-- Movie bean' leri -->
+    <bean id="movie" class="org.cinespring.example.model.entity.Movie" scope="prototype">
+        <property name="id" value="1"/>
+        <property name="name" value="Spiderman No Way Home"/>
+        <property name="rating" value="9.1"/>
+        <property name="releaseDate" value="10.10.2021"/>
+    </bean>
+
+    <bean id="movie2" class="org.cinespring.example.model.entity.Movie" scope="prototype">
+        <property name="id" value="2"/>
+        <property name="name" value="Butterfly Effect"/>
+        <property name="rating" value="8.1"/>
+        <property name="releaseDate" value="10.10.2010"/>
+    </bean>
+
+    <!-- MovieGenre bean' leri -->
+    <bean id="movieGenre" class="org.cinespring.example.model.entity.MovieGenre" scope="prototype">
+        <property name="movieId" value="1"/>
+        <property name="genreName" value="Action"/>
+    </bean>
+
+    <bean id="movieGenre2" class="org.cinespring.example.model.entity.MovieGenre" scope="prototype">
+        <property name="movieId" value="2"/>
+        <property name="genreName" value="Sci-fi"/>
+    </bean>
+
+    <!-- MovieSession bean' leri -->
+    <bean id="movieSession" class="org.cinespring.example.model.entity.MovieSession" scope="prototype">
+        <property name="movieId" value="1"/>
+        <property name="sessionId" value="1"/>
+    </bean>
+
+    <bean id="movieSession2" class="org.cinespring.example.model.entity.MovieSession" scope="prototype">
+        <property name="movieId" value="1"/>
+        <property name="sessionId" value="2"/>
+    </bean>
+
+    <bean id="movieSession3" class="org.cinespring.example.model.entity.MovieSession" scope="prototype">
+        <property name="movieId" value="2"/>
+        <property name="sessionId" value="1"/>
+    </bean>
+
+    <bean id="movieSession4" class="org.cinespring.example.model.entity.MovieSession" scope="prototype">
+        <property name="movieId" value="1"/>
+        <property name="sessionId" value="2"/>
+    </bean>
+
+    <!-- Theatre bean' leri -->
+    <bean id="theatre" class="org.cinespring.example.model.entity.Theatre" scope="prototype">
+        <property name="theatreId" value="1"/>
+        <property name="cinemaId" value="1"/>
+        <property name="theatreName" value="Salon1"/>
+        <property name="totalCapacity" value="350"/>
+    </bean>
+
+    <bean id="theatre2" class="org.cinespring.example.model.entity.Theatre" scope="prototype">
+        <property name="theatreId" value="2"/>
+        <property name="cinemaId" value="1"/>
+        <property name="theatreName" value="Salon2"/>
+        <property name="totalCapacity" value="370"/>
+    </bean>
+
+    <bean id="theatre3" class="org.cinespring.example.model.entity.Theatre" scope="prototype">
+        <property name="theatreId" value="3"/>
+        <property name="cinemaId" value="2"/>
+        <property name="theatreName" value="Salon11"/>
+        <property name="totalCapacity" value="150"/>
+    </bean>
+
+    <bean id="theatre4" class="org.cinespring.example.model.entity.Theatre" scope="prototype">
+        <property name="theatreId" value="4"/>
+        <property name="cinemaId" value="2"/>
+        <property name="theatreName" value="Salon13"/>
+        <property name="totalCapacity" value="170"/>
+    </bean>
+
+    <!-- Screening bean' leri -->
+    <bean id="screening" class="org.cinespring.example.model.entity.Screening" scope="prototype">
+        <property name="sessionId" value="1"/>
+        <property name="cinemaId" value="1"/>
+        <property name="theatreId" value="1"/>
+    </bean>
+
+    <bean id="screening2" class="org.cinespring.example.model.entity.Screening" scope="prototype">
+        <property name="sessionId" value="2"/>
+        <property name="cinemaId" value="2"/>
+        <property name="theatreId" value="4"/>
+    </bean>
+
+    <!-- Session bean' leri -->
+    <bean id="session" class="org.cinespring.example.model.entity.Session" scope="prototype">
+        <property name="id" value="1"/>
+        <property name="startDate" value="19-01-2021"/>
+        <property name="endDate" value="19-02-2021"/>
+        <property name="hour" value="19:30-22:00"/>
+    </bean>
+
+    <bean id="session2" class="org.cinespring.example.model.entity.Session" scope="prototype">
+        <property name="id" value="2"/>
+        <property name="startDate" value="21-04-2021"/>
+        <property name="endDate" value="11-05-2021"/>
+        <property name="hour" value="12:30-15:00"/>
+    </bean>
+
+    <!-- CineManager bean' i -->
+    <bean id="cineManager" class="org.cinespring.example.service.CineManager" >
+
+        <property name="cinemaList">
+            <list value-type="org.cinespring.example.model.entity.Cinema">
+                <ref bean="cinema"/>
+                <ref bean="cinema2"/>
+            </list>
+        </property>
+
+        <property name="movieList">
+            <list value-type="org.cinespring.example.model.entity.Movie">
+                <ref bean="movie"/>
+                <ref bean="movie2"/>
+            </list>
+        </property>
+
+        <property name="movieGenreList">
+            <list value-type="org.cinespring.example.model.entity.MovieGenre">
+                <ref bean="movieGenre"/>
+                <ref bean="movieGenre2"/>
+            </list>
+        </property>
+
+        <property name="movieSessionList">
+            <list value-type="org.cinespring.example.model.entity.MovieSession">
+                <ref bean="movieSession"/>
+                <ref bean="movieSession2"/>
+                <ref bean="movieSession3"/>
+                <ref bean="movieSession4"/>
+            </list>
+        </property>
+
+        <property name="screeningList">
+            <list value-type="org.cinespring.example.model.entity.Screening">
+                <ref bean="screening"/>
+                <ref bean="screening2"/>
+            </list>
+        </property>
+
+        <property name="theatreList">
+            <list value-type="org.cinespring.example.model.entity.Theatre">
+                <ref bean="theatre"/>
+                <ref bean="theatre2"/>
+                <ref bean="theatre3"/>
+                <ref bean="theatre4"/>
+            </list>
+        </property>
+
+        <property name="sessionList">
+            <list value-type="org.cinespring.example.model.entity.Session">
+                <ref bean="session"/>
+                <ref bean="session2"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
