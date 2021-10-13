@@ -1,0 +1,1 @@
+create type StatusEnum as enum ('PASSIVE', 'ACTIVE');
